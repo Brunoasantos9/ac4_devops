@@ -1,4 +1,4 @@
 FROM python:3.7-slim
 RUN pip install flask
-COPY aulamvc.py /aulamvc.py
-CMD ["python","aulamvc.py"]
+COPY aulamvc.py /app.py
+CMD ["python","app.py"]
