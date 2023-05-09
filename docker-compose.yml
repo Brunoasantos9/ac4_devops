@@ -3,7 +3,7 @@ services:
  web:
   build: .
   working_dir: /data
-  command: python app.py
+  command: python aulamvc.py
   links:
     - db
   volumes:
